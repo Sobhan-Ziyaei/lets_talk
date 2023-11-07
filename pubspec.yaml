@@ -1,0 +1,74 @@
+name: lets_talk
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_gen: ^5.3.1
+  flutter_gen_runner:
+  simple_circular_progress_bar: ^1.0.2
+  smooth_page_indicator: ^1.1.0
+  flutter_spinkit: ^5.2.0
+  flutter_svg: ^2.0.7
+  easy_date_timeline: ^0.1.1
+  translator: ^0.1.7
+  flutter_tts: ^3.8.3
+  speech_to_text: ^6.3.0
+  avatar_glow: ^2.0.2
+  lottie: ^2.6.0
+  country_picker: ^2.0.21
+  dartz: ^0.10.1
+  dio: ^5.3.3
+  get_it: ^7.6.4
+  shared_preferences: ^2.2.1
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+  flutter_html: ^3.0.0-beta.2
+  device_info_plus: ^9.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  flutter_lints: ^2.0.0
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/png/
+    - assets/images/svg/
+    - assets/gif/
+    - assets/lottie/
+    - assets/html/
+
+  fonts:
+    - family: arB
+      fonts:
+        - asset: assets/fonts/Archivo-Bold.ttf
+
+    - family: arEB
+      fonts:
+        - asset: assets/fonts/Archivo-ExtraBold.ttf
+
+    - family: arM
+      fonts:
+        - asset: assets/fonts/Archivo-Medium.ttf
+
+    - family: arT
+      fonts:
+        - asset: assets/fonts/Archivo-Thin.ttf
+
+    - family: arSM
+      fonts:
+        - asset: assets/fonts/Archivo-SemiBold.ttf
